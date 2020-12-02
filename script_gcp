@@ -8,12 +8,24 @@ echo "+#+ +#+#+ +#+ +#+        +#+       +#+        +#+    +#+ +#+       +#+ +#+
 echo " #+#+# #+#+#  #+#        #+#       #+#    #+# #+#    #+# #+#       #+# #+#        "
 echo "  ###   ###   ########## ########## ########   ########  ###       ### ########## "
 echo ""
+
+echo "Do you want to creat a bin and curl repo in it ?"
+echo "Answer 1=yes and 2=no"
+read Answer
+if [ $Answer = 1 ]
+then
+cd
+mkdir bin
+cd bin
+curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repochmod a+x ~/bin/repo 
+chmod a+x ~/bin/repo
+fi
+
 echo "Do you want to setup Build Environment?"
 echo "Answer 1=yes and 2=no"
 read Answer
 if [ $Answer = 1 ]
 then
-#!/usr/bin/env bash
 
 # Copyright (C) 2018 Harsh 'MSF Jarvis' Shandilya
 # Copyright (C) 2018 Akhil Narang
