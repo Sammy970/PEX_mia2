@@ -43,4 +43,9 @@ git config --global user.email "jainsamyak2002.sj@gmail.com"
 repo init -u https://github.com/PixelExtended/manifest -b eleven --depth=1
 repo sync -c -q --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 
+git clone https://github.com/PixelExtended/device_xiaomi_jasmine_sprout.git device/xiaomi/jasmine_sprout '\n'
+git clone https://github.com/PixelExtended/device_xiaomi_sdm660-common.git device/xiaomi/sdm660-common '\n'
+git clone https://github.com/xiaomi-sdm660/android_vendor_xiaomi_sdm660-common.git vendor/xiaomi/sdm660-common '\n'
+git clone https://github.com/xiaomi-sdm660/android_kernel_xiaomi_sdm660.git kernel/xiaomi/sdm660 '\n'
+
 echo " Thankyou"
