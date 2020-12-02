@@ -43,5 +43,4 @@ git config --global user.email "jainsamyak2002.sj@gmail.com"
 repo init -u https://github.com/PixelExtended/manifest -b eleven --depth=1
 repo sync -c -q --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 
-x 
-
+echo " Thankyou"
