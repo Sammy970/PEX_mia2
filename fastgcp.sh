@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+echo "Made by Samyak Jain."
+echo " Credits : Akhil Narang"
 echo ""
 echo ":::       ::: :::::::::: :::        ::::::::   ::::::::  ::::    ::::  :::::::::: "
 echo ":+:       :+: :+:        :+:       :+:    :+: :+:    :+: +:+:+: :+:+:+ :+:        "
