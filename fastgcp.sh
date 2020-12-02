@@ -22,6 +22,7 @@ echo -ne '\n'
 sudo apt-get update '\n'
 sudo apt-get upgrade -y '\n'
 
+sudo add-apt-repository ppa:openjdk-r/ppa '\n'
 cd
 mkdir bin
 cd bin
