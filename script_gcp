@@ -20,7 +20,7 @@ cd bin
 curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo 
 chmod a+x ~/bin/repo
 fi
-
+/n
 echo "Do you want to setup Build Environment?"
 echo "Answer 1=yes and 2=no"
 read Answer
@@ -32,3 +32,4 @@ git clone https://github.com/akhilnarang/scripts.git build
 cd build/setup/
 bash android_build_env.sh
 fi
+/n
