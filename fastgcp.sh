@@ -25,3 +25,10 @@ sudo apt-get install bison build-essential curl ccache flex lib32ncurses5-dev li
 git clone https://github.com/akhilnarang/scripts.git build
 cd build/setup/
 bash android_build_env.sh
+\n
+cd ..
+mkdir pex
+cd pex
+git config --global user.name "Samyak"
+git config --global user.email "jainsamyak2002.sj@gmail.com"
+repo init -u https://github.com/PixelExtended/manifest -b eleven --depth=1
