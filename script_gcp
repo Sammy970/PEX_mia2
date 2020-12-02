@@ -27,5 +27,6 @@ read Answer
 if [ $Answer = 1 ]
 then
 git clone https://github.com/nparashar150/buildscript.git build_scripts
-cd build_scripts/scripts/clone_build.sh
+cd build_scripts/scripts/
+bash clone_build.sh
 fi
