@@ -1,23 +1,6 @@
 #!/usr/bin/env bash
 echo "Made by Samyak Jain."
 echo " Credits : Akhil Narang , Naman Parashar "
-echo ""
-echo ":::       ::: :::::::::: :::        ::::::::   ::::::::  ::::    ::::  :::::::::: "
-echo ":+:       :+: :+:        :+:       :+:    :+: :+:    :+: +:+:+: :+:+:+ :+:        "
-echo "+:+       +:+ +:+        +:+       +:+        +:+    +:+ +:+ +:+:+ +:+ +:+        "
-echo "+#+  +:+  +#+ +#++:++#   +#+       +#+        +#+    +:+ +#+  +:+  +#+ +#++:++#   "
-echo "+#+ +#+#+ +#+ +#+        +#+       +#+        +#+    +#+ +#+       +#+ +#+        "
-echo " #+#+# #+#+#  #+#        #+#       #+#    #+# #+#    #+# #+#       #+# #+#        "
-echo "  ###   ###   ########## ########## ########   ########  ###       ### ########## "
-echo ""
-
-echo "Starting in 5 seconds"
-echo -ne '######                    (33%)\r'
-sleep 1
-echo -ne '#############             (66%)\r'
-sleep 3
-echo -ne '#######################  (100%)\r'
-echo -ne '\n'
 
 sudo apt-get update '\n'
 sudo apt-get upgrade -y '\n'
