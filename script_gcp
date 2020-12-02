@@ -26,7 +26,7 @@ echo "Answer 1=yes and 2=no"
 read Answer
 if [ $Answer = 1 ]
 then
-git clone https://github.com/nparashar150/buildscript.git build_scripts
-cd build_scripts/scripts/
-bash clone_build.sh
+git clone https://github.com/akhilnarang/scripts.git build
+cd build/setup/
+bash android_build_env.sh
 fi
