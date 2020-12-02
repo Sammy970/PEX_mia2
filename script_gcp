@@ -42,8 +42,7 @@ echo "Answer 1=yes and 2=no"
 read Answer
 if [ $Answer = 1 ]
 then
-cd
-cd bin/build
+cd ..
 mkdir pex
 fi 
 echo "Do you want to create global Username & useremail ?"
@@ -51,7 +50,6 @@ echo "Answer 1=yes and 2=no"
 read Answer
 if [ $Answer = 1 ]
 then
-cd bin/build/pex
 git config --global user.name "Samyak"
 git config --global user.email "jainsamyak2002.sj@gmail.com"
 fi
@@ -59,8 +57,7 @@ echo " Do you want to initialize PEX Repo ?"
 echo "Answer 1=yes and 2=no"
 read Answer
 if [ $Answer = 1 ]
-then 
-cd bin/build/pex 
+then  
 repo init -u https://github.com/PixelExtended/manifest -b eleven --depth=1
 fi
 echo "Do you want to sync Pex Source ?"
@@ -68,15 +65,13 @@ echo "Answer 1=yes and 2=no"
 read Answer
 if [ $Answer = 1 ]
 then 
-cd bin/build/pex
 repo sync -c -q --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 fi
 echo "Do you want to clone device tree, kernel , vendor for mi a2 ?"
 echo "Answer 1=yes and 2=no"
 read Answer
 if [ $Answer = 1 ]
-then 
-cd bin/build/pex 
+then  
 git clone https://github.com/PixelExtended/device_xiaomi_jasmine_sprout.git device/xiaomi/jasmine_sprout
 git clone https://github.com/PixelExtended/device_xiaomi_sdm660-common.git device/xiaomi/sdm660-common 
 git clone https://github.com/xiaomi-sdm660/android_vendor_xiaomi_sdm660-common.git vendor/xiaomi/sdm660-common 
