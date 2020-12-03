@@ -1,4 +1,6 @@
 #!/bin/bash
+echo "Made by Samyak Jain."
+echo " Credits : Akhil Narang , Naman Parashar "
 echo ""
 echo ":::       ::: :::::::::: :::        ::::::::   ::::::::  ::::    ::::  :::::::::: "
 echo ":+:       :+: :+:        :+:       :+:    :+: :+:    :+: +:+:+: :+:+:+ :+:        "
