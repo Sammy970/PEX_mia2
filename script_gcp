@@ -42,7 +42,8 @@ echo "Answer 1=yes and 2=no"
 read Answer
 if [ $Answer = 1 ]
 then
-cd ..
+cd
+cd bin/build
 mkdir pex
 fi 
 echo "Do you want to create global Username & useremail ?"
@@ -50,6 +51,8 @@ echo "Answer 1=yes and 2=no"
 read Answer
 if [ $Answer = 1 ]
 then
+cd 
+cd bin/build/pex
 git config --global user.name "Samyak"
 git config --global user.email "jainsamyak2002.sj@gmail.com"
 fi
