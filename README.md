@@ -1,6 +1,8 @@
 # PEX_mia2
 hello everyone!! 
 
+DISCLAIMER : THIS IS FOR MI A2 ONLY. 
+
 Welcome to my Github.
 I am Samyak Jain, and in this repo I have made 2 files for mi a2 which will help anyone to sync the PEX source, curl repo, update or upgrade your linux, Clone Device tree, kernel, vendor for mi a2.
 All of this is AUTOMATED.
