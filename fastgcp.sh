@@ -3,11 +3,11 @@ echo "Made by Samyak Jain."
 echo " Credits : Akhil Narang , Naman Parashar "
 echo "********************************************************************************************************************************************************"
 cd
-sudo apt-get update 
-sudo apt-get upgrade -y
+#sudo apt-get update 
+#sudo apt-get upgrade -y
 echo "********************************************************************************************************************************************************"
 cd
-sudo add-apt-repository ppa:openjdk-r/ppa 
+#sudo add-apt-repository ppa:openjdk-r/ppa 
 cd
 mkdir bin
 cd bin
