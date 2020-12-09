@@ -48,22 +48,9 @@ git clone https://github.com/xiaomi-sdm660/android_kernel_xiaomi_sdm660.git kern
 git clone https://github.com/xiaomi-sdm660/vendor_xiaomi_wayne-common.git vendor/xiaomi/wayne-common
 echo "********************************************************************************************************************************************************"
 
-Credits : Agent24015
+ccache -M 50G
 
-echo "The Size for ccache is taken in GB"
+source build/envsetup.sh
+lunch aosp_jasmine_sprout-userdebug
+mka bacon -j6
 
-echo "How much space do you want to allocate for ccache :"
-
-read size  
-
-sudo apt install ccache
-
-echo "export USE_CCACHE=1" >> ~/.bashrc
-
-source ~/.bashrc
-
-ccache -M $sizeG
-
-echo "CCACHE has been enabled" 
-
-echo " Thankyou"
