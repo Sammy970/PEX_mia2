@@ -50,7 +50,7 @@ echo "**************************************************************************
 
 ccache -M 50G
 
-source build/envsetup.sh
-lunch aosp_jasmine_sprout-userdebug
-mka bacon -j6
+#source build/envsetup.sh
+#lunch aosp_jasmine_sprout-userdebug
+#mka bacon -j6
 
