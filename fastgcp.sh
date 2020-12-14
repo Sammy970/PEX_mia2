@@ -58,7 +58,6 @@ nano Android.bp
 nano Android.mk
 nano AndroidProducts.mk
 nano BoardConfig.mk
-
 ccache -M 50G
 
 #source build/envsetup.sh
