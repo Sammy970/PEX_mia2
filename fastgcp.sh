@@ -48,6 +48,17 @@ git clone https://github.com/OdSazib/halcyon_kernel_sdm660.git kernel/xiaomi/sdm
 git clone https://github.com/OdSazib/vendor_xiaomi_wayne-common.git vendor/xiaomi/wayne-common
 echo "********************************************************************************************************************************************************"
 
+cd
+cd bin/build/pex/device/xiaomi/jasmine_sprout
+mv awaken_jasmine_sprout.mk aosp_jasmine_sprout.mk
+mv awaken.dependencies aosp.dependencies
+nano aosp_jasmine_sprout.mk
+nano aosp.dependencies
+nano Android.bp
+nano Android.mk
+nano AndroidProducts.mk
+nano BoardConfig.mk
+
 ccache -M 50G
 
 #source build/envsetup.sh
