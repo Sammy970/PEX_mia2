@@ -30,17 +30,17 @@ mkdir pex
 cd pex
 echo "********************************************************************************************************************************************************"
 cd
-cd bin/build/pex
+cd bin/build/pex/
 git config --global user.name "Samyak"
 git config --global user.email "jainsamyak2002.sj@gmail.com"
 echo "********************************************************************************************************************************************************"
 cd 
-cd bin/build/pex
+cd bin/build/pex/
 repo init -u https://github.com/PixelExtended/manifest -b eleven --depth=1
 repo sync -c -q --force-sync --optimized-fetch --no-tags --no-clone-bundle --prune -j$(nproc --all)
 echo "********************************************************************************************************************************************************"
 cd
-cd bin/build/pex
+cd bin/build/pex/
 git clone https://github.com/OdSazib/device_xiaomi_jasmine_sprout.git device/xiaomi/jasmine_sprout 
 git clone https://github.com/OdSazib/device_xiaomi_sdm660-common.git device/xiaomi/sdm660-common 
 git clone https://github.com/OdSazib/vendor_xiaomi_sdm660-common.git vendor/xiaomi/sdm660-common 
@@ -49,7 +49,7 @@ git clone https://github.com/OdSazib/vendor_xiaomi_wayne-common.git vendor/xiaom
 echo "********************************************************************************************************************************************************"
 
 cd
-cd bin/build/pex/device/xiaomi/jasmine_sprout
+cd bin/build/pex/device/xiaomi/jasmine_sprout/
 mv awaken_jasmine_sprout.mk aosp_jasmine_sprout.mk
 mv awaken.dependencies aosp.dependencies
 nano aosp_jasmine_sprout.mk
