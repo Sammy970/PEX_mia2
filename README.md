@@ -1,5 +1,5 @@
-# PEX_mia2
-hello everyone!! 
+# Pixel Extended Setup for MI A2
+Hello everyone!! 
 
 DISCLAIMER : THIS IS FOR MI A2 ONLY. 
 
